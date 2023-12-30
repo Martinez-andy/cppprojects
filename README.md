@@ -1,2 +1,2 @@
 # Learning C++
-This git repo consists of a collection of files I wrote while learning the basics of C++. It include files relating to variables, printing to the terminal, namespaces, and other C++ essentials.
+This git repo consists of a collection of files I wrote while learning the basics of C++. It include files relating to variables, printing to the terminal, namespaces, and other C++ essentials. First comes learning the language, next comes a project! Stay tuned to see what project(s) I build using my C++ knowledge.
