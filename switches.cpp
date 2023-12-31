@@ -1,7 +1,42 @@
 #include <iostream>
 
-int main() {
-    // Switch statements help us avoid extensive if else statements
+int main () {
+    char grade;
+    std::cout << "What grade did you get? ";
+    std::cin >> grade;
+
+    switch(grade) {
+        case 'A':
+            std::cout << "You did amazing!\n";
+            break;
+        case 'B':
+            std::cout << "You did really well\n";
+            break;
+        case 'C':
+            std::cout << "You did okay\n";
+            break;
+        case 'D':
+            std::cout << "You did not do well\n";
+        case 'F':
+            std::cout << "You failed, bruh!\n";
+            break;
+        default:
+            std::cout << "Please enter a valid grade (A-F)\n";
+            break;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+/* Switch functions for months
+    int main() {
+    Switch statements help us avoid extensive if else statements
 
     int month;
     std::cout << "Month (1-12): ";
@@ -50,3 +85,4 @@ int main() {
     }    
     return 0;
 }
+*/
