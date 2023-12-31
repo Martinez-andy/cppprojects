@@ -34,7 +34,7 @@ int main() {
             std::cout << "Result: " << x - y << std::endl;
             break;
         default:
-            std::cout << "Enter a valid operation";
+            std::cout << "Enter a valid operation\n";
     }
     return 0;
 }
