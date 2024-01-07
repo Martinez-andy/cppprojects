@@ -7,5 +7,6 @@ int main() {
     // For each loop below
     for (int num : nums) {
         printf("%i\n", num);
+        printf("I lost my streak!\n");
     }
 }
